@@ -1,0 +1,17 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Cette intégration est déjà suivie/configurée"
+        },
+        "error": {
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "integration_domain": "Le nom de l'intégration dont vous voulez les statistiques"
+                },
+                "description": "L'intégration doit être listée [içi](https://analytics.home-assistant.io/custom_integrations.json). Allez lire le [readme](https://github.com/hekmon/ha-custstats) pour plus de détails."
+            }
+        }
+    }
+}

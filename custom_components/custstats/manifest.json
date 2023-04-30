@@ -1,0 +1,11 @@
+{
+  "domain": "custstats",
+  "name": "Custom Integration Stats",
+  "codeowners": ["@hekmon"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/hekmon/ha-custstats",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/hekmon/ha-custstats/issues",
+  "requirements": []
+}
