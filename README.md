@@ -25,3 +25,5 @@ Download the integration from the [releases](https://github.com/hekmon/rtetempo/
 ## Configuration
 
 Once the integration has been installed and Home Assistant restarted, navigate to the integrations page, select the `Add Integration` button and search for `Custom Integration Stats`. Once the configuration modal opens up, put the integration domain of the integration your want statistics for. If you are unsure of the integration domain, check the [stats file](https://analytics.home-assistant.io/custom_integrations.json) for the integration your are looking for.
+
+If you want to track more than one custom integration, simply repeat the process.
