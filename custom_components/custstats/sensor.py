@@ -45,7 +45,7 @@ class IntegrationStats(SensorEntity):
 
     # Generic properties
     _attr_has_entity_name = True
-    _attr_icon = "mdi:finance"
+    _attr_icon = "mdi:chart-timeline-variant"
     # Sensor properties
     _attr_state_class = SensorStateClass.TOTAL
     # _attr_suggested_display_precision = 0
