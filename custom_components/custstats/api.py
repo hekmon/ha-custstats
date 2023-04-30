@@ -7,7 +7,7 @@ import logging
 
 import aiohttp
 
-from .const import STATS_PAGE
+from .const import STATS_PAGE, USER_AGENT
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -25,7 +25,9 @@ class StatsAPI:
             "getting Home Assistant custom integration statistics for '%s'",
             integration_name,
         )
-        async with self.websession.get(STATS_PAGE) as resp:
+        async with self.websession.get(
+            STATS_PAGE, headers={"User-Agent": USER_AGENT}
+        ) as resp:
             # Handle response
             if resp.status != 200:
                 _LOGGER.error(
