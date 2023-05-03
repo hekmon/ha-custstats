@@ -5,7 +5,7 @@
 
 This integration allows you to track installations statistics for Home Assistant custom integrations.
 
-See [example](https://raw.githubusercontent.com/hekmon/ha-custstats/v1.0.0/res/rtetempo_example.png).
+See [example](https://raw.githubusercontent.com/hekmon/ha-custstats/v1.0.1/res/rtetempo_example.png).
 
 ## Prerequisites
 
