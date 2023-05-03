@@ -96,7 +96,8 @@ class IntegrationStats(SensorEntity):
             self._attr_extra_state_attributes = {}
             return
         self._attr_native_value = total
-        # Handle versions
+        self._attr_available = True
+        # Handle versions (as extended attributes)
         self._attr_extra_state_attributes = {}
         for version, nb_install in versions.items():
             if not isinstance(nb_install, int):
