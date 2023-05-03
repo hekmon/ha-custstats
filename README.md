@@ -1,7 +1,7 @@
 # Home Assistant Custom Integration Statistics
 
-[![Validate with HACS](https://github.com/hekmon/ha-custstats/actions/workflows/hacs.yml/badge.svg)](https://github.com/hekmon/ha-custstats/actions/workflows/hacs.yml)
 [![Validate with hassfest](https://github.com/hekmon/ha-custstats/actions/workflows/hassfest.yaml/badge.svg)](https://github.com/hekmon/ha-custstats/actions/workflows/hassfest.yaml)
+[![Validate with HACS](https://github.com/hekmon/ha-custstats/actions/workflows/hacs.yml/badge.svg)](https://github.com/hekmon/ha-custstats/actions/workflows/hacs.yml)
 
 This integration allows you to track installations statistics for Home Assistant custom integrations.
 
