@@ -1,5 +1,8 @@
 # Home Assistant Custom Integration Statistics
 
+[![Validate with HACS](https://github.com/hekmon/ha-custstats/actions/workflows/hacs.yml/badge.svg)](https://github.com/hekmon/ha-custstats/actions/workflows/hacs.yml)
+[![Validate with hassfest](https://github.com/hekmon/ha-custstats/actions/workflows/hassfest.yaml/badge.svg)](https://github.com/hekmon/ha-custstats/actions/workflows/hassfest.yaml)
+
 This integration allows you to track installations statistics for Home Assistant custom integrations.
 
 See [example](https://github.com/hekmon/ha-custstats/raw/v1.0.0/res/rtetempo_svc.png).
