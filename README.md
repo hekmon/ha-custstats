@@ -23,7 +23,7 @@ More on HACS [here](https://hacs.xyz/).
 
 ### Manually
 
-Download the integration from the [releases](https://github.com/hekmon/rtetempo/releases) page and decompress the `custom_components/custstats` folder within your Home Assistant configuration directory. You must get: `/path/to/homeassistant/configdir/custom_components/custstats` if your Home Assistant config file is `/path/to/homeassistant/configdir/configuration.yaml`.
+Download the integration from the [releases](https://github.com/hekmon/ha-custstats/releases) page and decompress the `custom_components/custstats` folder within your Home Assistant configuration directory. You must get: `/path/to/homeassistant/configdir/custom_components/custstats` if your Home Assistant config file is `/path/to/homeassistant/configdir/configuration.yaml`.
 
 ## Configuration
 
