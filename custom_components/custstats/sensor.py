@@ -99,7 +99,9 @@ class IntegrationStats(SensorEntity):
         self._attr_available = True
         # Handle versions (as extended attributes)
         self._attr_extra_state_attributes = {}
-        for version, nb_install in versions.items():
+        # Sort versions by number of downloads (descending)
+        sorted_versions = sorted(versions.items(), key=lambda x: x[1], reverse=True)
+        for version, nb_install in sorted_versions:
             if not isinstance(nb_install, int):
                 _LOGGER.error(
                     "Version '%s' install stats for '%s' should be int",
